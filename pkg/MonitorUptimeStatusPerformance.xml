@@ -6,8 +6,8 @@
 	<class>up.time Status Performance</class>
 	<exec>com.uptimesoftware.uptime.erdc.MonitorCustomScriptRunner</exec>
 	<erdc_version>2.3</erdc_version>
-    <category>Storage Monitors</category>
-    <category_related>Network Device Monitors</category_related>
+    <category>Applications - Web Services</category>
+    <category_related>Advanced and Script Monitors</category_related>
     <grid_info>
         <supported_versions>7.3</supported_versions>
         <supported_platforms>windows, linux</supported_platforms>
@@ -121,6 +121,5 @@
 			</gui_type>
 		</element>
 	</elements>
-	<help>When running a custom script check, note that the second parameter is always the name of the assigned host.
-	The script that's executed should output each variable on it's own line, otherwise up.time won't be able to capture the appropriate information.</help>
+	<help>Monitor the number of performance data sample that the up.time Monitoring Station stored in the database.</help>
 </uptime>

@@ -12,7 +12,7 @@ plugin
 ### Version Compatibility
 
 
-  
+* up.time Status Performance Monitor 2.3 - 7.3
 * up.time Status Performance Monitor 2.2 - 7.2, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
   
 
@@ -23,7 +23,7 @@ Monitor the number of performance data sample that the up.time Monitoring Statio
 
 ### Supported Monitoring Stations
 
-7.2, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
+7.3, 7.2, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
 
 ### Supported Agents
 None; no agent required
@@ -38,9 +38,15 @@ None; no agent required
 
 ### Input Variables
 
+* Up.time API Port ( 9996 Default)
 
 ### Output Variables
 
+* Number of samples in the last 5 minutes
+* Number of samples in the last hour
+* Number of samples in the last day
+* Daily Target
+* Response Time
 
 
 ### Languages Used
@@ -48,6 +54,4 @@ None; no agent required
 * Shell/Batch
 
 * PHP
-
-* Java
 

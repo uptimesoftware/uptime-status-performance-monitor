@@ -1,8 +1,0 @@
-name=up.time Status Performance Monitor
-version=2.2
-platforms=windows linux solaris
-description=Monitor up.time performance internal status.
-restartCore=false
-requiresAgentScript=false
-onUpgradeRemoveFiles=true
-onUpgradeRemoveMonitors=false

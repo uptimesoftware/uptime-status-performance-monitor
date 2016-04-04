@@ -11,7 +11,7 @@ plugin
 
 ### Version Compatibility
 
-* up.time Status Performance Monitor 2.31 - 7.3,7.4,7.5,7.6
+* up.time Status Performance Monitor 2.31 - 7.3,7.4,7.5,7.6,7.7
 * up.time Status Performance Monitor 2.3 - 7.3
 * up.time Status Performance Monitor 2.2 - 7.2, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
   

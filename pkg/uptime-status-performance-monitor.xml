@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uptime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" target_grouping="other">
-	<class>up.time Status Performance</class>
+	<class>Uptime Status Performance</class>
 	<exec>com.uptimesoftware.uptime.erdc.MonitorCustomScriptRunner</exec>
 	<erdc_version>2.31</erdc_version>
     <category>Applications - Web Services</category>
@@ -45,8 +45,8 @@
 		<element name="port" parameter_type="input" data_type="integer" gui_basic="1" range_type="0">
 			<control_options>width:10em</control_options>
 			<default_value>9996</default_value>
-			<short_description> up.time API Port </short_description>
-			<long_description> The port that up.time Jetty is listening on (default: 9996) </long_description>
+			<short_description> Uptime API Port </short_description>
+			<long_description> The port that Uptime Jetty is listening on (default: 9996) </long_description>
 			<validation_rule>
 				<integer/>
 			</validation_rule>

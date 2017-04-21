@@ -1,9 +1,9 @@
-# up.time Status Performance Monitor
+# Uptime Status Performance Monitor
 
 See http://uptimesoftware.github.io for more information.
 
 ### Tags 
- plugin   up.time  
+ plugin   Uptime
 
 ### Category
 
@@ -23,7 +23,7 @@ Monitor the number of performance data sample that the up.time Monitoring Statio
 
 ### Supported Monitoring Stations
 
-7.3,7.4,7.5,7.6,7.3, 7.2, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
+5.2, 5.3, 5.4, 5.5, 6.0, 7.0, 7.1, 7.2, 7.3, 7.4, 7.5, 7.6, 7.7, 7.8
 
 ### Supported Agents
 None; no agent required
@@ -38,7 +38,7 @@ None; no agent required
 
 ### Input Variables
 
-* Up.time API Port ( 9996 Default)
+* Uptime API Port ( 9996 Default)
 
 ### Output Variables
 
@@ -54,4 +54,3 @@ None; no agent required
 * Shell/Batch
 
 * PHP
-

@@ -4,7 +4,7 @@ Author: Joel Pereira
 Date: 05.30.2012
 Description: This is a plug-in monitor that interacts with uptime through the HTTP
 	interface on the Jetty port (9996).
-Usage: Install via up.time Plugin Manager
+Usage: Install via Uptime Plugin Manager
 */
 $hostname = "localhost";
 $port     = 9996;
@@ -22,7 +22,7 @@ $url      = "http://{$hostname}:{$port}/status/performance";
 ini_set('default_socket_timeout', 600);
 $output = file_get_contents( trim($url) );
 
-// if we got something from the call then we need to clean it up for up.time
+// if we got something from the call then we need to clean it up for Uptime
 if($output) {	//only if this got set by our call
 	// remove all newlines so we can place them all properly later
 	//$output = preg_replace("/\n/m", '', $output);
@@ -61,7 +61,7 @@ if($output) {	//only if this got set by our call
 	*/
 }
 else {
-	echo "ERROR: Could not connect to up.time URL: '{$url}'.\n";
+	echo "ERROR: Could not connect to Uptime URL: '{$url}'.\n";
 	exit(2);
 }
 ?>
